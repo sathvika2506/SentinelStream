@@ -1,0 +1,71 @@
+# ===================================================
+# Node.js
+# ===================================================
+
+node_modules/
+npm-debug.log*
+
+# ===================================================
+# Environment Variables
+# ===================================================
+
+.env
+.env.local
+
+# ===================================================
+# Python
+# ===================================================
+
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# ===================================================
+# ML Models
+# ===================================================
+
+*.keras
+*.pkl
+*.joblib
+*.h5
+
+# ===================================================
+# Generated Files
+# ===================================================
+
+*.npy
+
+# ===================================================
+# Behaviour Engine Dataset
+# ===================================================
+
+ml-service/behaviour-engine/dataset/*.xlsx
+
+# Ignore generated datasets
+ml-service/behaviour-engine/dataset/behavior_dataset.csv
+ml-service/behaviour-engine/dataset/behavior_processed.csv
+ml-service/behaviour-engine/dataset/X_sequences.npy
+ml-service/behaviour-engine/dataset/y_labels.npy
+
+# ===================================================
+# Transaction Engine Generated Dataset
+# ===================================================
+
+ml-service/dataset/processed_fraud.csv
+
+# ===================================================
+# VS Code
+# ===================================================
+
+.vscode/
+
+# ===================================================
+# OS Files
+# ===================================================
+
+.DS_Store
+Thumbs.db
